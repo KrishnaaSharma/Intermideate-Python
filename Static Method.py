@@ -1,5 +1,5 @@
 class MathOperations:
-    @staticmethod
+    @staticmethod      #that does not depend on the instance (self) or class (cls).
     def add(x, y):
         return x + y
 

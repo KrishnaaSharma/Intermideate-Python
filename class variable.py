@@ -12,7 +12,7 @@ car1 =Car("tesla", "2020")
 
 print(car1.wheel)# output: 4
 
-print(car1.wheel)
+print(car1.wheel) # 6
 
     
 

@@ -1,15 +1,16 @@
-# class Car:
-#     def __init__(self, make, model):
-#         self.make = make       # Istance Variable
-#         self.model = model     # Istance Variable
+class Car:
+    def __init__(self, make, model):
+        self.make = make       # Istance Variable
+        self.model = model     # Istance Variable
 
-# # create istance (object)
-# car1 =Car("toyota", "corola")
+# create istance (object)
+car1 =Car("toyota", "corola")
 
-# print(car1.make)  #toyota
-# print(car1.model) # corola
+print(car1.make)  #toyota
+print(car1.model) # corola
 
 
+ # Instance Method of a class--------------------------------------------------------
 
 class Car:
     def __init__(self, brand, model):
@@ -21,7 +22,7 @@ class Car:
 
 car2 =Car("toyota", "corola")
 
-print(car2.display_info())
+print(car2.display_info())# corola toyota
 
 
 

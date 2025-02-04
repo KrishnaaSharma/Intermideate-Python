@@ -19,4 +19,6 @@ toyota = Car(brand= "toyota", model = "corola", year= 2023)
 tesla= Car(brand= "tesla", model = "corola", year= 2023)
 
 toyota.start()
+
+
 tesla.display_info()
