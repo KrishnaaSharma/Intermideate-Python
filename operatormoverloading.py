@@ -9,5 +9,5 @@ class Point():
 p1 = Point(4 , 6)
 p2 = Point(2 , 4)
 
-print(p1+p2)
+print(p1+p2)  # (6, 10)
 

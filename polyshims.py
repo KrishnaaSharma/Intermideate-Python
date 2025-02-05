@@ -1,17 +1,34 @@
-class Animal:
-    def speak(self):
-        return "Animal speaks"
 
+print(2+3)  #5
+print("hell0" + " world")  #concatenate
+print([1,2,3] + [4,5,6])   # merge
+
+
+class Animal():
+    def feed(self):
+        pass
+    
 class Dog(Animal):
-    def speak(self):
-        return "Dog barks"
+    def feed(self):
+        print("dog")
 
-class Cat(Animal):
-    def speak(self):
-        return "Cat meows"
+class Lion(Animal):
+    def feed(self):
+        print("Lion")
 
-# Objects
-animals = [Dog(), Cat(), Animal()]
+class Elephant(Animal):
+    def feed(self):
+        print("Elephant")
 
-for animal in animals:
-    print(animal.speak())  # Output alag-alag classes ke hisaab se hoga
+def Perform_feeding(self):
+    self.feed()
+
+
+do = Dog()
+lion = Lion()
+elephant = Elephant()
+
+
+Perform_feeding(do)
+Perform_feeding(lion)
+Perform_feeding(elephant)
